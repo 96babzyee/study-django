@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List Page</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Bookmark List</h1>
+		{{urlCount}}개의 북마크가 등록되어 있음
+
+		<ul>
+			{% for row in urlList %}
+			<li><a href="detail?url={{row.url}}">{{row.title}}</a></li>
+			{$ endfor %}
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Workspace\study-django\.metadata\.plugins\org.eclipse.core.resources\.projects\pyweb01\com.python.pydev.analysis\v2_indexcache
+bookmark.views|1559019678764892000|C:\Workspace\study-django\pyweb01\bookmark\views.py
+pyweb01.__init__|1559005522554173000|C:\Workspace\study-django\pyweb01\pyweb01\__init__.py
+pyweb01.urls|1559014747740639000|C:\Workspace\study-django\pyweb01\pyweb01\urls.py
+bookmark.migrations.0001_initial|1559010002992696000|C:\Workspace\study-django\pyweb01\bookmark\migrations\0001_initial.py
+bookmark.migrations.__init__|1559006620765212000|C:\Workspace\study-django\pyweb01\bookmark\migrations\__init__.py
+bookmark.models|1559009933857135000|C:\Workspace\study-django\pyweb01\bookmark\models.py
+manage|1559005522538234000|C:\Workspace\study-django\pyweb01\manage.py
+bookmark.tests|1559006620756236000|C:\Workspace\study-django\pyweb01\bookmark\tests.py
+pyweb01.wsgi|1559005522551181000|C:\Workspace\study-django\pyweb01\pyweb01\wsgi.py
+pyweb01.settings|1559006891664678000|C:\Workspace\study-django\pyweb01\pyweb01\settings.py
+bookmark.apps|1559006620735856000|C:\Workspace\study-django\pyweb01\bookmark\apps.py
+bookmark.admin|1559009907266605000|C:\Workspace\study-django\pyweb01\bookmark\admin.py
+bookmark.__init__|1559006620763219000|C:\Workspace\study-django\pyweb01\bookmark\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+5=C:\Workspace\study-django\pyweb01\bookmark\models.py
+13=C:\Workspace\study-django\pyweb01\manage.py
+17=C:\Workspace\study-django\pyweb01\pyweb01\urls.py
+12=bookmark.views
+20=Migration
+21=BookmarkAdmin
+9=C:\Workspace\study-django\pyweb01\bookmark\admin.py
+18=pyweb01.urls
+16=bookmark.migrations.0001_initial
+22=BookmarkConfig
+6=bookmark.models
+1=C:\Workspace\study-django\pyweb01\pyweb01\settings.py
+14=manage
+4=pyweb01.wsgi
+11=C:\Workspace\study-django\pyweb01\bookmark\views.py
+3=C:\Workspace\study-django\pyweb01\pyweb01\wsgi.py
+19=Bookmark
+2=pyweb01.settings
+15=C:\Workspace\study-django\pyweb01\bookmark\migrations\0001_initial.py
+8=bookmark.apps
+10=bookmark.admin
+7=C:\Workspace\study-django\pyweb01\bookmark\apps.py
+-- END DICTIONARY
+-- START TREE 1
+22
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|1|application!3^16#1*35@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+boo|3|Bookmark!5^6#7*49@BookmarkConfig!7^4#7*65@BookmarkAdmin!9^6#7*81@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+det|1|detail!11^19#5*98@
+hom|1|home!11^5#5*98@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|1|main!13^7#5*114@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!15^6#7*129@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^121#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+url|1|urlpatterns!17^28#1*147@
+use|3|USE_L10N!1^113#1*19@USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+8
+__s|1|__str__!19&5^12#9*50@
+dep|1|dependencies!20&15^11#5*131@
+ini|1|initial!20&15^8#5*131@
+lis|1|list_display!21&9^8#5*83@
+nam|1|name!22&7^5#5*67@
+ope|1|operations!20&15^22#5*131@
+tit|1|title!19&5^8#5*51@
+url|1|url!19&5^9#5*51@
+-- END TREE

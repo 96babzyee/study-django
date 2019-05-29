@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+bookmark.__init__|C:\Workspace\study-django\pyweb01\bookmark\__init__.py
+bookmark.admin|C:\Workspace\study-django\pyweb01\bookmark\admin.py
+bookmark.apps|C:\Workspace\study-django\pyweb01\bookmark\apps.py
+bookmark.migrations.0001_initial|C:\Workspace\study-django\pyweb01\bookmark\migrations\0001_initial.py
+bookmark.migrations.__init__|C:\Workspace\study-django\pyweb01\bookmark\migrations\__init__.py
+bookmark.models|C:\Workspace\study-django\pyweb01\bookmark\models.py
+bookmark.tests|C:\Workspace\study-django\pyweb01\bookmark\tests.py
+bookmark.views|C:\Workspace\study-django\pyweb01\bookmark\views.py
+manage|C:\Workspace\study-django\pyweb01\manage.py
+pyweb01.__init__|C:\Workspace\study-django\pyweb01\pyweb01\__init__.py
+pyweb01.settings|C:\Workspace\study-django\pyweb01\pyweb01\settings.py
+pyweb01.urls|C:\Workspace\study-django\pyweb01\pyweb01\urls.py
+pyweb01.wsgi|C:\Workspace\study-django\pyweb01\pyweb01\wsgi.py

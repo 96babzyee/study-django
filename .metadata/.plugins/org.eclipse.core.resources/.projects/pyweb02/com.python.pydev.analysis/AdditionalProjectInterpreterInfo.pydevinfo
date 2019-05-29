@@ -1,0 +1,83 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Workspace\study-django\.metadata\.plugins\org.eclipse.core.resources\.projects\pyweb02\com.python.pydev.analysis\v2_indexcache
+survey.tests|1559020204297627000|C:\Workspace\study-django\pyweb02\survey\tests.py
+survey.migrations.0001_initial|1559021204900378000|C:\Workspace\study-django\pyweb02\survey\migrations\0001_initial.py
+pyweb02.urls|1559026797935202000|C:\Workspace\study-django\pyweb02\pyweb02\urls.py
+survey.models|1559020978522991000|C:\Workspace\study-django\pyweb02\survey\models.py
+manage|1559019917830877000|C:\Workspace\study-django\pyweb02\manage.py
+survey.apps|1559020204285689000|C:\Workspace\study-django\pyweb02\survey\apps.py
+survey.migrations.__init__|1559020204310623000|C:\Workspace\study-django\pyweb02\survey\migrations\__init__.py
+survey.views|1559027499953483000|C:\Workspace\study-django\pyweb02\survey\views.py
+pyweb02.__init__|1559019917864889000|C:\Workspace\study-django\pyweb02\pyweb02\__init__.py
+survey.__init__|1559020204307600000|C:\Workspace\study-django\pyweb02\survey\__init__.py
+pyweb02.wsgi|1559019917855783000|C:\Workspace\study-django\pyweb02\pyweb02\wsgi.py
+survey.admin|1559021191063274000|C:\Workspace\study-django\pyweb02\survey\admin.py
+pyweb02.settings|1559022617280168000|C:\Workspace\study-django\pyweb02\pyweb02\settings.py
+-- END DISKCACHE
+-- START DICTIONARY
+23
+13=C:\Workspace\study-django\pyweb02\survey\admin.py
+12=survey.migrations.0001_initial
+18=pyweb02.urls
+21=Migration
+7=C:\Workspace\study-django\pyweb02\manage.py
+4=survey.models
+9=C:\Workspace\study-django\pyweb02\survey\views.py
+1=C:\Workspace\study-django\pyweb02\pyweb02\settings.py
+3=C:\Workspace\study-django\pyweb02\survey\models.py
+5=C:\Workspace\study-django\pyweb02\pyweb02\wsgi.py
+8=manage
+10=survey.views
+16=survey.apps
+20=Answer
+19=Survey
+17=C:\Workspace\study-django\pyweb02\pyweb02\urls.py
+23=SurveyConfig
+11=C:\Workspace\study-django\pyweb02\survey\migrations\0001_initial.py
+22=SurveyAdmin
+6=pyweb02.wsgi
+14=survey.admin
+15=C:\Workspace\study-django\pyweb02\survey\apps.py
+2=pyweb02.settings
+-- END DICTIONARY
+-- START TREE 1
+24
+all|1|ALLOWED_HOSTS!1^29#1*19@
+ans|1|Answer!3^19#7*33@
+app|1|application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^105#1*19@
+bas|1|BASE_DIR!1^17#1*19@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^27#1*19@
+ins|1|INSTALLED_APPS!1^43#1*19@
+int|1|INTERNAL_IPS!1^55#1*19@
+lan|1|LANGUAGE_CODE!1^111#1*19@
+mai|2|main!7^7#5*66@main!9^9#5*82@
+mid|1|MIDDLEWARE!1^54#1*19@
+mig|1|Migration!11^6#7*97@
+roo|1|ROOT_URLCONF!1^57#1*19@
+sav|1|save_survey!9^21#5*82@
+sec|1|SECRET_KEY!1^24#1*19@
+sho|1|show_result!9^31#5*82@
+sta|1|STATIC_URL!1^125#1*19@
+sur|3|SurveyAdmin!13^6#7*113@Survey!3^5#7*33@SurveyConfig!15^4#7*129@
+tem|1|TEMPLATES!1^73#1*19@
+tim|1|TIME_ZONE!1^113#1*19@
+url|1|urlpatterns!17^29#1*147@
+use|3|USE_L10N!1^117#1*19@USE_TZ!1^119#1*19@USE_I18N!1^115#1*19@
+wsg|1|WSGI_APPLICATION!1^75#1*19@
+-- END TREE
+-- START TREE 2
+10
+ans|5|ans1!19&3^11#5*35@ans3!19&3^13#5*35@answer_idx!20&3^21#5*35@ans2!19&3^12#5*35@ans4!19&3^14#5*35@
+dep|1|dependencies!21&11^11#5*99@
+ini|1|initial!21&11^8#5*99@
+lis|1|list_display!22&13^8#5*115@
+nam|1|name!23&15^5#5*131@
+num|1|num!20&3^25#5*35@
+ope|1|operations!21&11^34#5*99@
+que|1|question!19&3^9#5*35@
+sta|1|status!19&3^16#5*35@
+sur|2|survey_idx!19&3^7#5*35@survey_idx!20&3^23#5*35@
+-- END TREE

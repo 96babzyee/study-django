@@ -1,0 +1,7 @@
+from django.db import models
+
+# Create your models here.
+class Bookmark(models.Model): #django의 Model 클래스 상속받음
+    # 필드 선언, blank 빈값 허용, null허용
+    title=models.CharField(max_length=100,blank=True,null=True)
+    url=models.URLField("url",unique=True) #unique는 primary key

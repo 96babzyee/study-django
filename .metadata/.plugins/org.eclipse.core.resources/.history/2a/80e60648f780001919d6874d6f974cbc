@@ -1,0 +1,16 @@
+from django.shortcuts import render, render_to_response
+from bookmark.models import Bookmark
+
+# Create your views here.
+def home(request):
+    # select * from bookmark_bookmark order by title
+    # Bookmark의 오브젝트를 title로 정렬(오름차순)
+    urlList = Bookmark.objects.order_by("title")
+    # select count(*) from bookmark_bookmark
+    # Bookmark의 모든 오브젝트의 개수 가져와서 urlCount에 저장
+    urlCount = Bookmark.objects.all().count()
+    # list.html 페이지로 넘어가서 출력
+    # rander_to response("url",{"변수명","변수명"})
+    # 파이썬에서 두문장을 연결하기위해 '\' 입력
+    return render_to_response("list.html",\
+                              {"urlList":urlList, "urlCount":urlCount})

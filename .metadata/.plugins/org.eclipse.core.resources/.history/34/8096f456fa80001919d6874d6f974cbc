@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Detail Page</title>
+</head>
+<body>
+	<div id="container">
+		<h1>{{dto.title}}</h1>
+		<ul>
+			<li>URL:<a href="{{dto.url}}"></li>
+		</ul>
+	</div>
+</body>
+</html>
