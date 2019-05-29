@@ -23,7 +23,9 @@ urlpatterns = [
     # 관리자용 사이트
     path('admin/', admin.site.urls),
     # 설문 조사 관련 url
-    url(r'^$', views.main),  # localhost
+    # path('',views.survey_list),
+    url(r'^$', views.survey_list),  # localhost
+    url(r'^survey_item$',views.survey_item),
     url(r'^save_survey$', views.save_survey),
     url(r'^show_result', views.show_result),
 ]

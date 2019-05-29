@@ -6,17 +6,22 @@ from survey.models import Survey, Answer  # 설문테이블, 응답테이블 imp
 
 # Create your views here.
 # localhost(시작페이지)
-def main(request):
+def survey_list(request):
     # filter => where
     # order_by("필드") 오름차순, order_by("-필드") 내림차순
     # select * from servey_servey where status='y'
-    # order by survey_idx desc limted 1
-    survey = Survey.objects.filter(status='y').order_by("-survey_idx")[0]
+    surveyList = Survey.objects.filter(status='y').order_by("-survey_idx")
     
-    # main.html 페이지로 이동, 데이터 전달
-    return render_to_response("main.html", {'survey':survey})
+    return render_to_response("survey_List.html", {'surveyList':surveyList})
 
 
+def survey_item(request):
+    idx=request.GET["survey_idx"]
+    survey=Survey.objects.get(survey_idx=idx)
+    
+    return render_to_response("survey_item.html", {'survey':survey})
+    
+    
 @csrf_exempt
 def save_survey(request):
     # survey_idx : 설문문항 코드

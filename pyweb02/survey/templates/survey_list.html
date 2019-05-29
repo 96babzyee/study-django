@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Main Page</title>
+</head>
+<body>
+	<h2>설문 리스트</h2>
+	
+	<ul>
+		{% for survey in surveyList %}
+		<li><a href="survey_item?survey_idx={{survey.survey_idx}}">
+			{{survey.question}}</a></li>
+		{% endfor %}
+	</ul>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pyweb02/survey/templates/main.html&apos; to &apos;survey_item.html&apos;" description="Rename resource &apos;main.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="survey/templates/main.html" name="survey_item.html" stamp="1559090288312" updateReferences="true"/>
+</session>
