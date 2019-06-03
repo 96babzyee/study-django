@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Result Page</title>
+<script type="text/javascript">
+	function show_surveyList(){
+		location.href="/";
+	}
+</script>
 </head>
 <body>
 	<h2>설문조사 결과</h2>
@@ -21,5 +26,7 @@
 		</tr>
 		{% endfor %}
 	</table>
+	<br>
+	<input type="button" value="설문 리스트" onclick="show_surveyList()">
 </body>
 </html>

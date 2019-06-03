@@ -17,6 +17,7 @@ def survey_list(request):
 
 def survey_item(request):
     idx=request.GET["survey_idx"]
+    # select * from survey_survey where syrvey_idx=idx
     survey=Survey.objects.get(survey_idx=idx)
     
     return render_to_response("survey_item.html", {'survey':survey})
