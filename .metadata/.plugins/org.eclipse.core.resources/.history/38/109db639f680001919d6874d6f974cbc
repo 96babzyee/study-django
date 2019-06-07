@@ -1,4 +1,0 @@
-from django.shortcuts import render, render_to_response
-from bookmark.models import import Bookmark
-
-# Create your views here.
